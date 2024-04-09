@@ -86,9 +86,8 @@ namespace Кадровый_учет_продвинутый
 
             Console.Write("удаление сотрудника из базы данных. выберете номер:");
             string input = Console.ReadLine();
-            int index;
 
-            if (int.TryParse(input, out index))
+            if (int.TryParse(input, out int index))
             {
                 index -= 1;
 
